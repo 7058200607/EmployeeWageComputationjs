@@ -1,4 +1,5 @@
-
+function CalculateDailyWage()
+{
 console.log("Welcome to Employee Wage Calculation")
 let EmpCheck=Math.floor(Math.random()*3);
 let EmpHrs=0;
@@ -33,4 +34,5 @@ while(TotalEmpHours<= MaxHourInMonth && TotalWorkingDays< NumOfWorkingDays)
 }
 TotalEmpWage=TotalEmpHours*EmpWagePerHrs;
 console.log(TotalEmpWage)
-
+}
+CalculateDailyWage();
